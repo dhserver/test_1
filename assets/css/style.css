@@ -43,5 +43,15 @@ hr{
 }
 
 .bkg_blanco{
- background-color: black;
+ background-color: #ffffff;
+ color: black;
+}
+
+nav {
+  text-align: left;
+  position: fixed;
+}
+
+.mediano{
+  width: 50%;
 }

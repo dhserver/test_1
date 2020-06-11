@@ -14,7 +14,7 @@
   <title>On test Full Stack</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#" id="nav-title">Prueba-01 - Mi Portafolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -79,12 +79,39 @@
 </section>
 <section id="experiencia" class="bkg_blanco">
     <h1>MI EXPERIENCIA</h1>
-    <a href="https://www.linkedin.com/in/francisco-javier-hernandez-carrasco-26a9b263"><i class="fab fa-linkedin fa-5x"></i></a>
-    <a href="https://github.com/dhserver"><i class="fab fa-github-square fa-5x"></i></a>
+    <a href="https://www.linkedin.com/in/francisco-javier-hernandez-carrasco-26a9b263"><i class="fab fa-linkedin fa-5x" style="color:Black"></i></a>
+    <a href="https://github.com/dhserver"><i class="fab fa-github-square fa-5x" style="color:Black" ></i></a>
 </section>
 <section  id="trabajos">
   <div class="">
     <h1>Mis ultimos trabajos</h1>
+    <!-- IDEA: Corousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/css/img/work_1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/css/img/work_2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/css/img/work_3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Antes</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Despues</span>
+      </a>
+    </div>
   </div>
 </section>
 <section  id="contacto">
