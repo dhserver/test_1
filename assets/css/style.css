@@ -53,5 +53,8 @@ nav {
 }
 
 .mediano{
+  display: block;
+  margin-left: 38%;
   width: 50%;
+  padding-bottom: 5%;
 }
